@@ -1,5 +1,55 @@
-  <Defs>
-  	 <TraitDef>
+<Defs>
+	<!--Start of Byakugan and Hyuuga traits-->
+   <TraitDef>
+    <defName>Byakugan</defName>
+    <commonality>0.007</commonality>
+    <degreeDatas>
+      <li>
+        <label>byakugan</label>
+        <description>[PAWN_nameDef] has gained byakugan.</description>
+        <statOffsets>
+		  <WorkSpeedGlobal>0.2</WorkSpeedGlobal>
+		  <MeleeHitChance>4</MeleeHitChance>
+		  <MeleeDodgeChance>4</MeleeDodgeChance>
+		  <ShootingAccuracyPawn>4</ShootingAccuracyPawn>
+		  <MedicalTendQuality>1.85</MedicalTendQuality>
+		  <MedicalTendSpeed>0.6</MedicalTendSpeed>
+		  <ImmunityGainSpeed>0.85</ImmunityGainSpeed>
+          <PsychicEntropyMax>35</PsychicEntropyMax>
+		  <ToxicSensitivity>-0.35</ToxicSensitivity>
+		  <PlantHarvestYield>0.35</PlantHarvestYield>
+		  <AnimalGatherYield>0.35</AnimalGatherYield>
+		  <MedicalSurgerySuccessChance>0.35</MedicalSurgerySuccessChance>
+		  <MoveSpeed>1.60</MoveSpeed>
+		  <ConstructSuccessChance>0.25</ConstructSuccessChance>
+		  <AnimalGatherSpeed>0.4</AnimalGatherSpeed>
+       	  <TameAnimalChance>0.2</TameAnimalChance>
+       	  <EatingSpeed>0.70</EatingSpeed>
+		  <HuntingStealth>0.30</HuntingStealth>
+		  <SocialImpact>0.4</SocialImpact>
+		  <PawnBeauty>2</PawnBeauty>
+		  <MeditationFocusGain>0.30</MeditationFocusGain>
+        </statOffsets>
+		<statFactors>
+		  <WorkSpeedGlobal>1.2</WorkSpeedGlobal>
+		  <ShootingAccuracyPawn>1.2</ShootingAccuracyPawn>
+		  <MoveSpeed>1.3</MoveSpeed>
+		  <MeleeDodgeChance>1.3</MeleeDodgeChance>    
+		  <PsychicEntropyRecoveryRate>1.3</PsychicEntropyRecoveryRate>
+		  <PsychicEntropyGain>0.65</PsychicEntropyGain>		
+          <CarryingCapacity>1.5</CarryingCapacity>
+		  <PawnTrapSpringChance>0.15</PawnTrapSpringChance>		  
+        </statFactors>
+		<marketValueFactorOffset>1.5</marketValueFactorOffset>
+      </li>
+    </degreeDatas>
+	<conflictingTraits>
+    </conflictingTraits>
+   </TraitDef>
+	<!--End of Byakugan and Hyuuga traits-->
+
+  	<!--Sharingan Eyes and Rinnegan-->
+	<TraitDef>
     <defName>Sharingan1Tomoe</defName>
     <commonality>0.01</commonality>
     <degreeDatas>
@@ -42,8 +92,8 @@
       </li>
     </degreeDatas>
 	<conflictingTraits>
-	<li>Sharingan3Tomoe</li>
 	<li>Sharingan2Tomoe</li>
+	<li>Sharingan3Tomoe</li>
 	<li>MangekyoSharingan</li>
 	<li>EternalMangekyoSharingan</li>
 	<li>Rinnegan</li>
@@ -144,8 +194,8 @@
       </li>
     </degreeDatas>
 	<conflictingTraits>
-	<li>Sharingan2Tomoe</li>
 	<li>Sharingan1Tomoe</li>
+	<li>Sharingan2Tomoe</li>
 	<li>MangekyoSharingan</li>
 	<li>EternalMangekyoSharingan</li>
 	<li>Rinnegan</li>
@@ -179,7 +229,7 @@
 		  <HuntingStealth>0.75</HuntingStealth>
 		  <SocialImpact>1.4</SocialImpact>
 		  <PawnBeauty>8</PawnBeauty>
-		  <MeditationFocusGain>0.75</MeditationFocusGain>
+		  <MeditationFocusGain>1.1</MeditationFocusGain>
         </statOffsets>
 		<statFactors>
 		  <WorkSpeedGlobal>1.8</WorkSpeedGlobal>
@@ -195,8 +245,8 @@
       </li>
     </degreeDatas>
 	<conflictingTraits>
-	<li>Sharingan2Tomoe</li>
 	<li>Sharingan1Tomoe</li>
+	<li>Sharingan2Tomoe</li>
 	<li>Sharingan3Tomoe</li>
 	<li>EternalMangekyoSharingan</li>
 	<li>Rinnegan</li>
@@ -226,11 +276,11 @@
        	  <PlantWorkSpeed>1.60</PlantWorkSpeed>
 		  <SmeltingSpeed>1.60</SmeltingSpeed>
           <GeneralLaborSpeed>1.60</GeneralLaborSpeed>
-		  <ShootingAccuracyPawn>12</ShootingAccuracyPawn>
+		  <ShootingAccuracyPawn>24</ShootingAccuracyPawn>
 		  <HuntingStealth>1.60</HuntingStealth>
 		  <SocialImpact>1.8</SocialImpact>
 		  <PawnBeauty>12</PawnBeauty>
-		  <MeditationFocusGain>1.2</MeditationFocusGain>
+		  <MeditationFocusGain>1.5</MeditationFocusGain>
         </statOffsets>
 		<statFactors>
 		  <WorkSpeedGlobal>2.4</WorkSpeedGlobal>
@@ -246,63 +296,67 @@
       </li>
     </degreeDatas>
 	<conflictingTraits>
-	<li>Sharingan2Tomoe</li>
 	<li>Sharingan1Tomoe</li>
+	<li>Sharingan2Tomoe</li>
 	<li>Sharingan3Tomoe</li>
+	<li>MangekyoSharingan</li>
+	<li>Rinnegan</li>
     </conflictingTraits>
    </TraitDef>
 
 	<TraitDef>
     <defName>Rinnegan</defName>
-    <commonality>0.0001</commonality>
+    <commonality>0.00001</commonality>
     <degreeDatas>
       <li>
         <label>rinnegan</label>
         <description>[PAWN_nameDef] has gained rinnegan.</description>
         <statOffsets>
-		  <WorkSpeedGlobal>2.0</WorkSpeedGlobal>
-		  <MeleeHitChance>12</MeleeHitChance>
-		  <MeleeDodgeChance>12</MeleeDodgeChance>
-		  <MedicalTendQuality>1.75</MedicalTendQuality>
-		  <ImmunityGainSpeed>1.8</ImmunityGainSpeed>
-          <PsychicEntropyMax>120</PsychicEntropyMax>
-		  <ToxicSensitivity>-0.99</ToxicSensitivity>
-		  <MoveSpeed>10.80</MoveSpeed>
-		  <AnimalGatherSpeed>1.8</AnimalGatherSpeed>
-       	  <TameAnimalChance>1.4</TameAnimalChance>
-       	  <EatingSpeed>2.40</EatingSpeed>
-		  <MedicalTendSpeed>2.2</MedicalTendSpeed>
-       	  <PlantWorkSpeed>2.60</PlantWorkSpeed>
-		  <SmeltingSpeed>2.60</SmeltingSpeed>
-          <GeneralLaborSpeed>2.60</GeneralLaborSpeed>
-		  <ShootingAccuracyPawn>12</ShootingAccuracyPawn>
+		  <WorkSpeedGlobal>2.8</WorkSpeedGlobal>
+		  <MeleeHitChance>48</MeleeHitChance>
+		  <MeleeDodgeChance>48</MeleeDodgeChance>
+		  <MedicalTendQuality>2.75</MedicalTendQuality>
+		  <ImmunityGainSpeed>2.8</ImmunityGainSpeed>
+          <PsychicEntropyMax>155</PsychicEntropyMax>
+		  <ToxicSensitivity>-0.1</ToxicSensitivity>
+		  <MoveSpeed>15.80</MoveSpeed>
+		  <AnimalGatherSpeed>2.8</AnimalGatherSpeed>
+       	  <TameAnimalChance>2.4</TameAnimalChance>
+       	  <EatingSpeed>3.40</EatingSpeed>
+		  <MedicalTendSpeed>3.2</MedicalTendSpeed>
+       	  <PlantWorkSpeed>3.60</PlantWorkSpeed>
+		  <SmeltingSpeed>3.60</SmeltingSpeed>
+          <GeneralLaborSpeed>3.60</GeneralLaborSpeed>
+		  <ShootingAccuracyPawn>32</ShootingAccuracyPawn>
 		  <HuntingStealth>2.60</HuntingStealth>
-		  <SocialImpact>1.8</SocialImpact>
-		  <PawnBeauty>8</PawnBeauty>
-		  <MeditationFocusGain>1.2</MeditationFocusGain>
+		  <SocialImpact>2.8</SocialImpact>
+		  <PawnBeauty>16</PawnBeauty>
+		  <MeditationFocusGain>2.5</MeditationFocusGain>
         </statOffsets>
 		<statFactors>
-		  <WorkSpeedGlobal>2.4</WorkSpeedGlobal>
-		  <ShootingAccuracyPawn>2.4</ShootingAccuracyPawn>
-		  <MoveSpeed>2.6</MoveSpeed>
-		  <MeleeDodgeChance>2.6</MeleeDodgeChance>    
-		  <PsychicEntropyRecoveryRate>2.6</PsychicEntropyRecoveryRate>
-		  <PsychicEntropyGain>0.25</PsychicEntropyGain>		
-          <CarryingCapacity>3.25</CarryingCapacity>
-		  <PawnTrapSpringChance>0.05</PawnTrapSpringChance>		  
+		  <WorkSpeedGlobal>3.4</WorkSpeedGlobal>
+		  <ShootingAccuracyPawn>3.4</ShootingAccuracyPawn>
+		  <MoveSpeed>3.6</MoveSpeed>
+		  <MeleeDodgeChance>3.6</MeleeDodgeChance>    
+		  <PsychicEntropyRecoveryRate>3.6</PsychicEntropyRecoveryRate>
+		  <PsychicEntropyGain>0.65</PsychicEntropyGain>		
+          <CarryingCapacity>5.25</CarryingCapacity>
+		  <PawnTrapSpringChance>0.01</PawnTrapSpringChance>		  
         </statFactors>
-		<marketValueFactorOffset>5.55</marketValueFactorOffset>
+		<marketValueFactorOffset>10.55</marketValueFactorOffset>
       </li>
     </degreeDatas>
 	<conflictingTraits>
-	<li>Sharingan2Tomoe</li>
 	<li>Sharingan1Tomoe</li>
+	<li>Sharingan2Tomoe</li>
 	<li>Sharingan3Tomoe</li>
 	<li>MangekyoSharingan</li>
 	<li>EternalMangekyoSharingan</li>
     </conflictingTraits>
    </TraitDef>
-   
+   <!--End of Sharingan Eyes and Rinnegan-->
+
+	<!--Uchiha Traits-->
 	<TraitDef>
     <defName>Uchiha</defName>
     <commonality>0.035</commonality>
@@ -461,7 +515,7 @@
     </conflictingTraits>
    </TraitDef>
    
-      <TraitDef>
+	<TraitDef>
     <defName>UchihaLegend</defName>
     <commonality>0.0001</commonality>
     <degreeDatas>
@@ -514,8 +568,10 @@
 	<li>UchihaGenius</li>
     </conflictingTraits>
    </TraitDef>
-   
-     <TraitDef>
+   <!--End of Uchiha Traits-->
+
+	<!--Start of Ninja rank traits -->
+	<TraitDef>
     <defName>Genin</defName>
     <commonality>0.2</commonality>
     <degreeDatas>
@@ -571,7 +627,7 @@
     </conflictingTraits>
    </TraitDef>
    
-        <TraitDef>
+	<TraitDef>
     <defName>Chunin</defName>
     <commonality>0.07</commonality>
     <degreeDatas>
@@ -849,7 +905,7 @@
     </conflictingTraits>
    </TraitDef>
    
-            <TraitDef>
+	<TraitDef>
     <defName>MedicalNinja</defName>
     <commonality>0.05</commonality>
     <degreeDatas>
@@ -947,5 +1003,5 @@
 	<li>MedicalNinja</li>
     </conflictingTraits>
    </TraitDef>
-   
-  </Defs>
+   <!--End of Ninja rank traits -->
+   </Defs>
