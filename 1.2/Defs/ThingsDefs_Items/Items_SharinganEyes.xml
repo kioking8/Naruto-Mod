@@ -11,7 +11,7 @@
       </statBases>
    </ThingDef>
 
-<!-- Added Eyes -->
+<!-- Added Sharingan Eyes -->
 
    <ThingDef ParentName="Sharingan">
       <defName>Sharingan1Tomoe</defName>

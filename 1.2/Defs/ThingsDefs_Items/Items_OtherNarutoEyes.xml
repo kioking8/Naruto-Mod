@@ -1,0 +1,30 @@
+<Defs>
+   <ThingDef Name="NarutoEye" ParentName="BodyPartBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+      <statBases>
+        <Beauty>1</Beauty>
+        <DeteriorationRate>2.0</DeteriorationRate>
+        <MaxHitPoints>100</MaxHitPoints>
+      </statBases>
+   </ThingDef>
+
+<!-- Added Eyes -->
+
+   <ThingDef ParentName="Sharingan">
+      <defName>Byakugan</defName>
+      <label>byakugan</label>
+      <description>The first version of sharingan. It isn't as good as the others, but it can still help a lot</description>
+      <graphicData>
+        <texPath>Things/Item/BodyPart/Byakugan</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>0.80</drawSize>
+        <shaderType>CutoutComplex</shaderType>
+      </graphicData>
+      <statBases>
+         <Mass>0.3</Mass>
+         <MarketValue>3000</MarketValue>
+      </statBases>
+   </ThingDef>
