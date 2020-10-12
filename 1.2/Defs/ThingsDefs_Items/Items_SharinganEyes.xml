@@ -1,19 +1,6 @@
 <Defs>
-   <ThingDef Name="Sharingan" ParentName="BodyPartBase" Abstract="True">
-    <thingClass>ThingWithComps</thingClass>
-    <category>Item</category>
-    <useHitPoints>true</useHitPoints>
-    <selectable>true</selectable>
-      <statBases>
-        <Beauty>1</Beauty>
-        <DeteriorationRate>2.0</DeteriorationRate>
-        <MaxHitPoints>100</MaxHitPoints>
-      </statBases>
-   </ThingDef>
-
 <!-- Added Sharingan Eyes -->
-
-   <ThingDef ParentName="Sharingan">
+   <ThingDef ParentName="BodyPartNaturalBase">
       <defName>Sharingan1Tomoe</defName>
       <label>sharingan - 1 tomoe</label>
       <description>The first version of sharingan. It isn't as good as the others, but it can still help a lot</description>
@@ -29,7 +16,7 @@
       </statBases>
    </ThingDef>
 
-   <ThingDef ParentName="Sharingan">
+   <ThingDef ParentName="BodyPartNaturalBase">
       <defName>Sharingan2Tomoe</defName>
       <label>sharingan - 2 tomoe</label>
       <description>The second version of sharingan. It is much better than the first one</description>
@@ -45,7 +32,7 @@
       </statBases>
    </ThingDef>
 
-   <ThingDef ParentName="Sharingan">
+   <ThingDef ParentName="BodyPartNaturalBase">
       <defName>Sharingan3Tomoe</defName>
       <label>sharingan - 3 tomoe</label>
       <description>The third and last version of the normal sharingan. It is much stronger than the previous ones</description>
@@ -61,7 +48,7 @@
       </statBases>
    </ThingDef>
 
-   <ThingDef ParentName="Sharingan">
+   <ThingDef ParentName="BodyPartNaturalBase">
       <defName>SharinganMangekyo</defName>
       <label>mangekyo sharingan</label>
       <description>the mangekyo sharingan. Through this eye you can unlock so many abilities that the normal one couldn't and the ultimate abillity Sussano</description>
@@ -77,7 +64,7 @@
       </statBases>
    </ThingDef>
 
-   <ThingDef ParentName="Sharingan">
+   <ThingDef ParentName="BodyPartNaturalBase">
       <defName>SharinganEternalMangekyo</defName>
       <label>eternal mangekyo sharingan</label>
       <description>the eternal mangekyo sharingan. Unlike the normal mangekyo you won't get blind from using this eye. You can furthermore increase you eye powers</description>
@@ -93,7 +80,7 @@
       </statBases>
    </ThingDef>
 
-   <ThingDef ParentName="Sharingan">
+   <ThingDef ParentName="BodyPartNaturalBase">
       <defName>Rinnegan</defName>
       <label>rinnegan</label>
       <description>The strongest eye that exist, but you can't achieve it that easily</description>

@@ -1,19 +1,5 @@
-<Defs>
-   <ThingDef Name="NarutoEye" ParentName="BodyPartBase" Abstract="True">
-    <thingClass>ThingWithComps</thingClass>
-    <category>Item</category>
-    <useHitPoints>true</useHitPoints>
-    <selectable>true</selectable>
-      <statBases>
-        <Beauty>1</Beauty>
-        <DeteriorationRate>2.0</DeteriorationRate>
-        <MaxHitPoints>100</MaxHitPoints>
-      </statBases>
-   </ThingDef>
-
 <!-- Added Eyes -->
-
-   <ThingDef ParentName="Sharingan">
+   <ThingDef ParentName="BodyPartNaturalBase">
       <defName>Byakugan</defName>
       <label>byakugan</label>
       <description>The white eye Byakugan. Giving user the ability to see through walls and and have a 360 field of view</description>

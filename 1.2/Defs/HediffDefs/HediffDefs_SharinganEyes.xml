@@ -1,0 +1,78 @@
+<Defs>
+
+   <HediffDef Name="addedSharinganEye" ParentName="AddedBodyPartBase" Abstract="True">
+      <defaultLabelColor>(0,255,0)</defaultLabelColor>
+   </HediffDef>
+
+
+   <!-- Added Sharingan Eyes -->
+
+   <HediffDef ParentName="addedSharinganEye">
+    <defName>Sharingan1Tomoe</defName>
+    <label>sharingan - 1 tomoe</label>
+    <labelNoun>a sharingan - 1 tomoe</labelNoun>
+    <description>An install sharingan with 1 tomoe.</description>
+    <descriptionHyperlinks><ThingDef>Sharingan1Tomoe</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>Sharingan1Tomoe</spawnThingOnRemoved>
+    <addedPartProps>
+        <partEfficiency>1.25</partEfficiency>
+    </addedPartProps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+                    <AimingDelayFactor>-0.1</AimingDelayFactor>
+			        <MeleeHitChance>+0.1</MeleeHitChance>
+			        <MeleeDodgeChance>+0.1</MeleeDodgeChance>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+   <HediffDef ParentName="addedSharinganEye">
+    <defName>Sharingan2Tomoe</defName>
+    <label>sharingan - 2 tomoe</label>
+    <labelNoun>a sharingan - 2 tomoe</labelNoun>
+    <description>An install sharingan with 2 tomoe.</description>
+    <descriptionHyperlinks><ThingDef>Sharingan2Tomoe</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>Sharingan2Tomoe</spawnThingOnRemoved>
+    <addedPartProps>
+        <partEfficiency>1.50</partEfficiency>
+    </addedPartProps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+                    <AimingDelayFactor>-0.25</AimingDelayFactor>
+			        <MeleeHitChance>+0.25</MeleeHitChance>
+			        <MeleeDodgeChance>+0.25</MeleeDodgeChance>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+   <HediffDef ParentName="addedSharinganEye">
+    <defName>Sharingan3Tomoe</defName>
+    <label>sharingan - 3 tomoe</label>
+    <labelNoun>a sharingan - 3 tomoe</labelNoun>
+    <description>An install sharingan with 3 tomoe.</description>
+    <descriptionHyperlinks><ThingDef>Sharingan3Tomoe</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>Sharingan3Tomoe</spawnThingOnRemoved>
+    <addedPartProps>
+        <partEfficiency>2.0</partEfficiency>
+    </addedPartProps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+                    <AimingDelayFactor>-0.25</AimingDelayFactor>
+			        <MeleeHitChance>+0.25</MeleeHitChance>
+			        <MeleeDodgeChance>+0.25</MeleeDodgeChance>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+
+
+</Defs>
