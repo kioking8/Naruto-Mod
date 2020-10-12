@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+<name>Naruto Eyes</name>
+<url></url>
+<author>Tom</author>
+<supportedVersions>
+	<li>1.2</li>
+</supportedVersions>
+<packageId>tom.narutotraits</packageId>
+<description>
+The mod adds some naruto traits in to the game mostly eyes
+</description>
+</ModMetaData>
