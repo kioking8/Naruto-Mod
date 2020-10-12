@@ -10,26 +10,19 @@
 		  <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
 		  <MeleeHitChance>2</MeleeHitChance>
 		  <MeleeDodgeChance>2</MeleeDodgeChance>
-		  <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
-		  <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
 		  <MedicalTendQuality>0.35</MedicalTendQuality>
 		  <ImmunityGainSpeed>0.3</ImmunityGainSpeed>
           <PsychicEntropyMax>15</PsychicEntropyMax>
 		  <ToxicSensitivity>-0.5</ToxicSensitivity>
 		  <MoveSpeed>1.30</MoveSpeed>
-		  <ForagedNutritionPerDay>0.3</ForagedNutritionPerDay>
 		  <AnimalGatherSpeed>0.2</AnimalGatherSpeed>
-		  <AnimalGatherYield>0.2</AnimalGatherYield>
        	  <TameAnimalChance>0.5</TameAnimalChance>
        	  <EatingSpeed>0.35</EatingSpeed>
 		  <MedicalTendSpeed>0.3</MedicalTendSpeed>
        	  <PlantWorkSpeed>0.15</PlantWorkSpeed>
 		  <SmeltingSpeed>0.15</SmeltingSpeed>
           <GeneralLaborSpeed>0.15</GeneralLaborSpeed>
-          <PlantHarvestYield>0.15</PlantHarvestYield>
 		  <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
-		  <Flammability>-0.25</Flammability>
-		  <PainShockThreshold>0.25</PainShockThreshold>
 		  <HuntingStealth>0.15</HuntingStealth>
 		  <SocialImpact>0.2</SocialImpact>
 		  <PawnBeauty>1</PawnBeauty>
@@ -43,7 +36,6 @@
 		  <PsychicEntropyRecoveryRate>1.15</PsychicEntropyRecoveryRate>
 		  <PsychicEntropyGain>0.8</PsychicEntropyGain>		
           <CarryingCapacity>1.25</CarryingCapacity>
-		  <ForagedNutritionPerDay>1.15</ForagedNutritionPerDay>
 		  <PawnTrapSpringChance>0.25</PawnTrapSpringChance>		  
         </statFactors>
 		<marketValueFactorOffset>1.25</marketValueFactorOffset>
@@ -52,6 +44,8 @@
 	<conflictingTraits>
 	<li>Sharingan3Tomoe</li>
 	<li>Sharingan2Tomoe</li>
+	<li>MangekyoSharingan</li>
+	<li>EternalMangekyoSharingan</li>
 	<li>Rinnegan</li>
     </conflictingTraits>
    </TraitDef>
@@ -67,26 +61,19 @@
 		  <WorkSpeedGlobal>0.2</WorkSpeedGlobal>
 		  <MeleeHitChance>4</MeleeHitChance>
 		  <MeleeDodgeChance>4</MeleeDodgeChance>
-		  <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
-		  <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
 		  <MedicalTendQuality>0.65</MedicalTendQuality>
 		  <ImmunityGainSpeed>0.6</ImmunityGainSpeed>
           <PsychicEntropyMax>30</PsychicEntropyMax>
 		  <ToxicSensitivity>-0.75</ToxicSensitivity>
 		  <MoveSpeed>2.60</MoveSpeed>
-		  <ForagedNutritionPerDay>0.6</ForagedNutritionPerDay>
 		  <AnimalGatherSpeed>0.4</AnimalGatherSpeed>
-		  <AnimalGatherYield>0.4</AnimalGatherYield>
        	  <TameAnimalChance>0.2</TameAnimalChance>
        	  <EatingSpeed>0.70</EatingSpeed>
 		  <MedicalTendSpeed>0.6</MedicalTendSpeed>
        	  <PlantWorkSpeed>0.30</PlantWorkSpeed>
 		  <SmeltingSpeed>0.30</SmeltingSpeed>
           <GeneralLaborSpeed>0.30</GeneralLaborSpeed>
-          <PlantHarvestYield>0.30</PlantHarvestYield>
 		  <ShootingAccuracyPawn>4</ShootingAccuracyPawn>
-		  <Flammability>-0.5</Flammability>
-		  <PainShockThreshold>0.5</PainShockThreshold>
 		  <HuntingStealth>0.30</HuntingStealth>
 		  <SocialImpact>0.4</SocialImpact>
 		  <PawnBeauty>2</PawnBeauty>
@@ -100,7 +87,6 @@
 		  <PsychicEntropyRecoveryRate>1.3</PsychicEntropyRecoveryRate>
 		  <PsychicEntropyGain>0.65</PsychicEntropyGain>		
           <CarryingCapacity>1.5</CarryingCapacity>
-		  <ForagedNutritionPerDay>1.3</ForagedNutritionPerDay>
 		  <PawnTrapSpringChance>0.15</PawnTrapSpringChance>		  
         </statFactors>
 		<marketValueFactorOffset>1.5</marketValueFactorOffset>
@@ -109,6 +95,8 @@
 	<conflictingTraits>
 	<li>Sharingan1Tomoe</li>
 	<li>Sharingan3Tomoe</li>
+	<li>MangekyoSharingan</li>
+	<li>EternalMangekyoSharingan</li>
 	<li>Rinnegan</li>
     </conflictingTraits>
    </TraitDef>
@@ -124,26 +112,19 @@
 		  <WorkSpeedGlobal>0.4</WorkSpeedGlobal>
 		  <MeleeHitChance>8</MeleeHitChance>
 		  <MeleeDodgeChance>8</MeleeDodgeChance>
-		  <ArmorRating_Blunt>1.0</ArmorRating_Blunt>
-		  <ArmorRating_Sharp>1.0</ArmorRating_Sharp>
 		  <MedicalTendQuality>0.75</MedicalTendQuality>
 		  <ImmunityGainSpeed>1.2</ImmunityGainSpeed>
           <PsychicEntropyMax>60</PsychicEntropyMax>
 		  <ToxicSensitivity>-0.95</ToxicSensitivity>
 		  <MoveSpeed>5.80</MoveSpeed>
-		  <ForagedNutritionPerDay>1.2</ForagedNutritionPerDay>
 		  <AnimalGatherSpeed>0.8</AnimalGatherSpeed>
-		  <AnimalGatherYield>0.8</AnimalGatherYield>
        	  <TameAnimalChance>0.4</TameAnimalChance>
        	  <EatingSpeed>1.40</EatingSpeed>
 		  <MedicalTendSpeed>1.2</MedicalTendSpeed>
        	  <PlantWorkSpeed>0.60</PlantWorkSpeed>
 		  <SmeltingSpeed>0.60</SmeltingSpeed>
           <GeneralLaborSpeed>0.60</GeneralLaborSpeed>
-          <PlantHarvestYield>0.60</PlantHarvestYield>
 		  <ShootingAccuracyPawn>8</ShootingAccuracyPawn>
-		  <Flammability>-0.85</Flammability>
-		  <PainShockThreshold>0.85</PainShockThreshold>
 		  <HuntingStealth>0.60</HuntingStealth>
 		  <SocialImpact>0.8</SocialImpact>
 		  <PawnBeauty>4</PawnBeauty>
@@ -157,7 +138,6 @@
 		  <PsychicEntropyRecoveryRate>1.6</PsychicEntropyRecoveryRate>
 		  <PsychicEntropyGain>0.55</PsychicEntropyGain>		
           <CarryingCapacity>2.25</CarryingCapacity>
-		  <ForagedNutritionPerDay>1.6</ForagedNutritionPerDay>
 		  <PawnTrapSpringChance>0.30</PawnTrapSpringChance>		  
         </statFactors>
 		<marketValueFactorOffset>2.55</marketValueFactorOffset>
@@ -166,69 +146,113 @@
 	<conflictingTraits>
 	<li>Sharingan2Tomoe</li>
 	<li>Sharingan1Tomoe</li>
+	<li>MangekyoSharingan</li>
+	<li>EternalMangekyoSharingan</li>
 	<li>Rinnegan</li>
     </conflictingTraits>
    </TraitDef>
 
    <TraitDef>
     <defName>MangekyoSharingan</defName>
-    <commonality>0.001</commonality>
+    <commonality>0.0005</commonality>
     <degreeDatas>
       <li>
         <label>mangekyo sharingan</label>
         <description>[PAWN_nameDef] has gained mangekyo sharingan.</description>
         <statOffsets>
-		  <WorkSpeedGlobal>0.4</WorkSpeedGlobal>
-		  <MeleeHitChance>8</MeleeHitChance>
-		  <MeleeDodgeChance>8</MeleeDodgeChance>
-		  <ArmorRating_Blunt>1.0</ArmorRating_Blunt>
-		  <ArmorRating_Sharp>1.0</ArmorRating_Sharp>
-		  <MedicalTendQuality>0.75</MedicalTendQuality>
-		  <ImmunityGainSpeed>1.2</ImmunityGainSpeed>
-          <PsychicEntropyMax>60</PsychicEntropyMax>
-		  <ToxicSensitivity>-0.95</ToxicSensitivity>
-		  <MoveSpeed>5.80</MoveSpeed>
-		  <ForagedNutritionPerDay>1.2</ForagedNutritionPerDay>
-		  <AnimalGatherSpeed>0.8</AnimalGatherSpeed>
-		  <AnimalGatherYield>0.8</AnimalGatherYield>
-       	  <TameAnimalChance>0.4</TameAnimalChance>
-       	  <EatingSpeed>1.40</EatingSpeed>
-		  <MedicalTendSpeed>1.2</MedicalTendSpeed>
-       	  <PlantWorkSpeed>0.60</PlantWorkSpeed>
-		  <SmeltingSpeed>0.60</SmeltingSpeed>
-          <GeneralLaborSpeed>0.60</GeneralLaborSpeed>
-          <PlantHarvestYield>0.60</PlantHarvestYield>
-		  <ShootingAccuracyPawn>8</ShootingAccuracyPawn>
-		  <Flammability>-0.85</Flammability>
-		  <PainShockThreshold>0.85</PainShockThreshold>
-		  <HuntingStealth>0.60</HuntingStealth>
-		  <SocialImpact>0.8</SocialImpact>
-		  <PawnBeauty>4</PawnBeauty>
-		  <MeditationFocusGain>0.60</MeditationFocusGain>
+		  <WorkSpeedGlobal>0.6</WorkSpeedGlobal>
+		  <MeleeHitChance>16</MeleeHitChance>
+		  <MeleeDodgeChance>16</MeleeDodgeChance>
+		  <MedicalTendQuality>1.25</MedicalTendQuality>
+		  <ImmunityGainSpeed>1.6</ImmunityGainSpeed>
+          <PsychicEntropyMax>75</PsychicEntropyMax>
+		  <ToxicSensitivity>-0.96</ToxicSensitivity>
+		  <MoveSpeed>8.00</MoveSpeed>
+		  <AnimalGatherSpeed>1.2</AnimalGatherSpeed>
+       	  <TameAnimalChance>1.0</TameAnimalChance>
+       	  <EatingSpeed>1.8</EatingSpeed>
+		  <MedicalTendSpeed>1.6</MedicalTendSpeed>
+       	  <PlantWorkSpeed>1.0</PlantWorkSpeed>
+		  <SmeltingSpeed>1.0</SmeltingSpeed>
+          <GeneralLaborSpeed>1.0</GeneralLaborSpeed>
+		  <ShootingAccuracyPawn>16</ShootingAccuracyPawn>
+		  <HuntingStealth>0.75</HuntingStealth>
+		  <SocialImpact>1.4</SocialImpact>
+		  <PawnBeauty>8</PawnBeauty>
+		  <MeditationFocusGain>0.75</MeditationFocusGain>
         </statOffsets>
 		<statFactors>
-		  <WorkSpeedGlobal>1.4</WorkSpeedGlobal>
-		  <ShootingAccuracyPawn>1.4</ShootingAccuracyPawn>
-		  <MoveSpeed>1.6</MoveSpeed>
-		  <MeleeDodgeChance>1.6</MeleeDodgeChance>    
-		  <PsychicEntropyRecoveryRate>1.6</PsychicEntropyRecoveryRate>
-		  <PsychicEntropyGain>0.55</PsychicEntropyGain>		
-          <CarryingCapacity>2.25</CarryingCapacity>
-		  <ForagedNutritionPerDay>1.6</ForagedNutritionPerDay>
-		  <PawnTrapSpringChance>0.30</PawnTrapSpringChance>		  
+		  <WorkSpeedGlobal>1.8</WorkSpeedGlobal>
+		  <ShootingAccuracyPawn>1.8</ShootingAccuracyPawn>
+		  <MoveSpeed>1.8</MoveSpeed>
+		  <MeleeDodgeChance>1.8</MeleeDodgeChance>    
+		  <PsychicEntropyRecoveryRate>1.8</PsychicEntropyRecoveryRate>
+		  <PsychicEntropyGain>1.55</PsychicEntropyGain>		
+          <CarryingCapacity>3.45</CarryingCapacity>
+		  <PawnTrapSpringChance>0.45</PawnTrapSpringChance>		  
         </statFactors>
-		<marketValueFactorOffset>2.55</marketValueFactorOffset>
+		<marketValueFactorOffset>3.0</marketValueFactorOffset>
       </li>
     </degreeDatas>
 	<conflictingTraits>
 	<li>Sharingan2Tomoe</li>
 	<li>Sharingan1Tomoe</li>
+	<li>Sharingan3Tomoe</li>
+	<li>EternalMangekyoSharingan</li>
 	<li>Rinnegan</li>
     </conflictingTraits>
    </TraitDef>
 
-   
-      <TraitDef>
+   <TraitDef>
+    <defName>EternalMangekyoSharingan</defName>
+    <commonality>0.0001</commonality>
+    <degreeDatas>
+      <li>
+        <label>eternal mangekyo sharingan</label>
+        <description>[PAWN_nameDef] has gained eternal mangekyo sharingan.</description>
+        <statOffsets>
+		  <WorkSpeedGlobal>1.4</WorkSpeedGlobal>
+		  <MeleeHitChance>24</MeleeHitChance>
+		  <MeleeDodgeChance>24</MeleeDodgeChance>
+		  <MedicalTendQuality>1.75</MedicalTendQuality>
+		  <ImmunityGainSpeed>1.8</ImmunityGainSpeed>
+          <PsychicEntropyMax>120</PsychicEntropyMax>
+		  <ToxicSensitivity>-0.99</ToxicSensitivity>
+		  <MoveSpeed>10.80</MoveSpeed>
+		  <AnimalGatherSpeed>1.8</AnimalGatherSpeed>
+       	  <TameAnimalChance>1.4</TameAnimalChance>
+       	  <EatingSpeed>2.40</EatingSpeed>
+		  <MedicalTendSpeed>2.2</MedicalTendSpeed>
+       	  <PlantWorkSpeed>1.60</PlantWorkSpeed>
+		  <SmeltingSpeed>1.60</SmeltingSpeed>
+          <GeneralLaborSpeed>1.60</GeneralLaborSpeed>
+		  <ShootingAccuracyPawn>12</ShootingAccuracyPawn>
+		  <HuntingStealth>1.60</HuntingStealth>
+		  <SocialImpact>1.8</SocialImpact>
+		  <PawnBeauty>12</PawnBeauty>
+		  <MeditationFocusGain>1.2</MeditationFocusGain>
+        </statOffsets>
+		<statFactors>
+		  <WorkSpeedGlobal>2.4</WorkSpeedGlobal>
+		  <ShootingAccuracyPawn>2.4</ShootingAccuracyPawn>
+		  <MoveSpeed>2.6</MoveSpeed>
+		  <MeleeDodgeChance>2.6</MeleeDodgeChance>    
+		  <PsychicEntropyRecoveryRate>2.6</PsychicEntropyRecoveryRate>
+		  <PsychicEntropyGain>0.95</PsychicEntropyGain>		
+          <CarryingCapacity>3.75</CarryingCapacity>
+		  <PawnTrapSpringChance>0.25</PawnTrapSpringChance>		  
+        </statFactors>
+		<marketValueFactorOffset>5.55</marketValueFactorOffset>
+      </li>
+    </degreeDatas>
+	<conflictingTraits>
+	<li>Sharingan2Tomoe</li>
+	<li>Sharingan1Tomoe</li>
+	<li>Sharingan3Tomoe</li>
+    </conflictingTraits>
+   </TraitDef>
+
+	<TraitDef>
     <defName>Rinnegan</defName>
     <commonality>0.0001</commonality>
     <degreeDatas>
@@ -236,29 +260,22 @@
         <label>rinnegan</label>
         <description>[PAWN_nameDef] has gained rinnegan.</description>
         <statOffsets>
-		  <WorkSpeedGlobal>1.4</WorkSpeedGlobal>
+		  <WorkSpeedGlobal>2.0</WorkSpeedGlobal>
 		  <MeleeHitChance>12</MeleeHitChance>
 		  <MeleeDodgeChance>12</MeleeDodgeChance>
-		  <ArmorRating_Blunt>1.5</ArmorRating_Blunt>
-		  <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
 		  <MedicalTendQuality>1.75</MedicalTendQuality>
 		  <ImmunityGainSpeed>1.8</ImmunityGainSpeed>
           <PsychicEntropyMax>120</PsychicEntropyMax>
 		  <ToxicSensitivity>-0.99</ToxicSensitivity>
 		  <MoveSpeed>10.80</MoveSpeed>
-		  <ForagedNutritionPerDay>2.2</ForagedNutritionPerDay>
 		  <AnimalGatherSpeed>1.8</AnimalGatherSpeed>
-		  <AnimalGatherYield>1.8</AnimalGatherYield>
        	  <TameAnimalChance>1.4</TameAnimalChance>
        	  <EatingSpeed>2.40</EatingSpeed>
 		  <MedicalTendSpeed>2.2</MedicalTendSpeed>
        	  <PlantWorkSpeed>2.60</PlantWorkSpeed>
 		  <SmeltingSpeed>2.60</SmeltingSpeed>
           <GeneralLaborSpeed>2.60</GeneralLaborSpeed>
-          <PlantHarvestYield>2.60</PlantHarvestYield>
 		  <ShootingAccuracyPawn>12</ShootingAccuracyPawn>
-		  <Flammability>-0.99</Flammability>
-		  <PainShockThreshold>0.95</PainShockThreshold>
 		  <HuntingStealth>2.60</HuntingStealth>
 		  <SocialImpact>1.8</SocialImpact>
 		  <PawnBeauty>8</PawnBeauty>
@@ -272,7 +289,6 @@
 		  <PsychicEntropyRecoveryRate>2.6</PsychicEntropyRecoveryRate>
 		  <PsychicEntropyGain>0.25</PsychicEntropyGain>		
           <CarryingCapacity>3.25</CarryingCapacity>
-		  <ForagedNutritionPerDay>2.6</ForagedNutritionPerDay>
 		  <PawnTrapSpringChance>0.05</PawnTrapSpringChance>		  
         </statFactors>
 		<marketValueFactorOffset>5.55</marketValueFactorOffset>
@@ -282,10 +298,12 @@
 	<li>Sharingan2Tomoe</li>
 	<li>Sharingan1Tomoe</li>
 	<li>Sharingan3Tomoe</li>
+	<li>MangekyoSharingan</li>
+	<li>EternalMangekyoSharingan</li>
     </conflictingTraits>
    </TraitDef>
    
-      <TraitDef>
+	<TraitDef>
     <defName>Uchiha</defName>
     <commonality>0.035</commonality>
     <degreeDatas>
