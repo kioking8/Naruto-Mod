@@ -16,7 +16,7 @@
    <ThingDef ParentName="Sharingan">
       <defName>Byakugan</defName>
       <label>byakugan</label>
-      <description>The first version of sharingan. It isn't as good as the others, but it can still help a lot</description>
+      <description>The white eye Byakugan. Giving user the ability to see through walls and and have a 360 field of view</description>
       <graphicData>
         <texPath>Things/Item/BodyPart/Byakugan</texPath>
         <graphicClass>Graphic_Single</graphicClass>
