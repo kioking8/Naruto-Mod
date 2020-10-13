@@ -1,7 +1,7 @@
 <Defs>
 
    <HediffDef Name="addedSharinganEye" ParentName="AddedBodyPartBase" Abstract="True">
-      <defaultLabelColor>(0,255,0)</defaultLabelColor>
+      <defaultLabelColor>(255,0,0)</defaultLabelColor>
    </HediffDef>
 
 

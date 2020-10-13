@@ -1,0 +1,5 @@
+C:\Games\RimWorld.v1.2.2723\Mods\Naruto Eyes\Assemblies\SharinganMod.dll
+C:\Games\RimWorld.v1.2.2723\Mods\Naruto Eyes\source\SharinganMod\SharinganMod\obj\Debug\SharinganMod.csprojAssemblyReference.cache
+C:\Games\RimWorld.v1.2.2723\Mods\Naruto Eyes\source\SharinganMod\SharinganMod\obj\Debug\SharinganMod.csproj.CoreCompileInputs.cache
+C:\Games\RimWorld.v1.2.2723\Mods\Naruto Eyes\source\SharinganMod\SharinganMod\obj\Debug\SharinganMod.dll
+C:\Games\RimWorld.v1.2.2723\Mods\Naruto Eyes\1.2\Assemblies\SharinganMod.dll
