@@ -5,7 +5,5 @@
     <baseCommonality>0.8</baseCommonality>
     <intensity>Extreme</intensity>
     <workerClass>SharinganMod.MentalBreakWorker_Sharingan1Tomoe</workerClass>
-    <beginLetter>{0} has gained the sharingan!.</beginLetter>
-    <beginLetterDef>ThreatSmall</beginLetterDef>
   </MentalBreakDef>
 </Defs>
