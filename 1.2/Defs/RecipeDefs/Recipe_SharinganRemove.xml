@@ -30,6 +30,9 @@
             <li>Medicine</li>
          </categories>
       </fixedIngredientFilter>
+      <products>
+			<Sharingan1Tomoe>1</Sharingan1Tomoe>
+		</products>
       <recipeUsers>
          <li>Human</li>
       </recipeUsers>
@@ -63,6 +66,9 @@
             <li>Medicine</li>
          </categories>
       </fixedIngredientFilter>
+      <products>
+			<Sharingan2Tomoe>1</Sharingan2Tomoe>
+		</products>
       <recipeUsers>
          <li>Human</li>
       </recipeUsers>
@@ -96,6 +102,9 @@
             <li>Medicine</li>
          </categories>
       </fixedIngredientFilter>
+      <products>
+			<Sharingan3Tomoe>1</Sharingan3Tomoe>
+		</products>
       <recipeUsers>
          <li>Human</li>
       </recipeUsers>
