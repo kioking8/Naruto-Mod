@@ -1,4 +1,5 @@
 <!-- Added Eyes -->
+<Defs>
    <ThingDef ParentName="BodyPartNaturalBase">
       <defName>Byakugan</defName>
       <label>byakugan</label>
