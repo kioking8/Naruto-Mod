@@ -13,6 +13,8 @@ namespace SharinganMod
 
         public static HediffDef Sharingan3Tomoe;
 
+        public static HediffDef SharinganMangekyo;
+
 
     }
 }

@@ -22,14 +22,19 @@
         <stages>
             <li>
                 <statOffsets>
-                    <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+                    <ShootingAccuracyPawn>+1</ShootingAccuracyPawn>
                     <AimingDelayFactor>-0.1</AimingDelayFactor>
 			        <MeleeHitChance>+0.1</MeleeHitChance>
 			        <MeleeDodgeChance>+0.1</MeleeDodgeChance>
+                    <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
+                    <MeditationFocusGain>0.05</MeditationFocusGain>
+                    <PsychicEntropyMax>10</PsychicEntropyMax>
+                    <MoveSpeed>1.30</MoveSpeed>
+                    <PsychicEntropyGain>0.2</PsychicEntropyGain>	
                 </statOffsets>
             </li>
         </stages>
-        <chanceToCauseNoPain>0.25</chanceToCauseNoPain>
+        <chanceToCauseNoPain>0.45</chanceToCauseNoPain>
         <scenarioCanAdd>true</scenarioCanAdd>
     </HediffDef>
 
@@ -52,10 +57,15 @@
                     <AimingDelayFactor>-0.25</AimingDelayFactor>
 			        <MeleeHitChance>+0.25</MeleeHitChance>
 			        <MeleeDodgeChance>+0.25</MeleeDodgeChance>
+                    <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+                    <MeditationFocusGain>0.1</MeditationFocusGain>
+                    <PsychicEntropyMax>15</PsychicEntropyMax>
+                    <MoveSpeed>1.60</MoveSpeed>
+                    <PsychicEntropyGain>0.25</PsychicEntropyGain>	
                 </statOffsets>
             </li>
         </stages>
-        <chanceToCauseNoPain>0.25</chanceToCauseNoPain>
+        <chanceToCauseNoPain>0.35</chanceToCauseNoPain>
         <scenarioCanAdd>true</scenarioCanAdd>
     </HediffDef>
 
@@ -74,14 +84,51 @@
         <stages>
             <li>
                 <statOffsets>
-                    <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
-                    <AimingDelayFactor>-0.25</AimingDelayFactor>
-			        <MeleeHitChance>+0.25</MeleeHitChance>
-			        <MeleeDodgeChance>+0.25</MeleeDodgeChance>
+                    <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+                    <AimingDelayFactor>-0.35</AimingDelayFactor>
+			        <MeleeHitChance>+0.35</MeleeHitChance>
+			        <MeleeDodgeChance>+0.35</MeleeDodgeChance>
+                    <WorkSpeedGlobal>0.2</WorkSpeedGlobal>
+                    <MeditationFocusGain>0.15</MeditationFocusGain>
+                    <PsychicEntropyMax>20</PsychicEntropyMax>
+                    <MoveSpeed>2.20</MoveSpeed>
+                    <PsychicEntropyGain>0.3</PsychicEntropyGain>	
                 </statOffsets>
             </li>
         </stages>
     </HediffDef>
     <chanceToCauseNoPain>0.25</chanceToCauseNoPain>
     <scenarioCanAdd>true</scenarioCanAdd>
+
+   <HediffDef ParentName="addedSharinganEye">
+    <defName>SharinganMangekyo</defName>
+    <label>mangekyo sharingan</label>
+    <labelNoun>a mangekyo sharingan</labelNoun>
+    <description>An install mangekyo sharingan.</description>
+    <descriptionHyperlinks><ThingDef>SharinganMangekyo</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>SharinganMangekyo</spawnThingOnRemoved>
+    <addedPartProps>
+        <partEfficiency>3.2</partEfficiency>
+        <solid>true</solid>
+        <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+                    <AimingDelayFactor>-0.45</AimingDelayFactor>
+			        <MeleeHitChance>+0.45</MeleeHitChance>
+			        <MeleeDodgeChance>+0.45</MeleeDodgeChance>
+                    <WorkSpeedGlobal>0.3</WorkSpeedGlobal>
+                    <MeditationFocusGain>0.25</MeditationFocusGain>
+                    <PsychicEntropyMax>35</PsychicEntropyMax>
+                    <MoveSpeed>3.0</MoveSpeed>
+                    <PsychicEntropyGain>0.6</PsychicEntropyGain>	
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+    <chanceToCauseNoPain>0.15</chanceToCauseNoPain>
+    <scenarioCanAdd>true</scenarioCanAdd>
+
 </Defs>

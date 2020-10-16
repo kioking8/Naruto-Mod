@@ -1,7 +1,7 @@
 <Defs>
   <MentalBreakDef>
     <defName>Sharingan1Tomoe</defName>
-    <label>sharingan 1 tomoe</label>
+    <label>sharingan - 1 tomoe</label>
     <baseCommonality>2.8</baseCommonality>
     <intensity>Major</intensity>
     <workerClass>SharinganMod.MentalBreakWorker_Sharingan1Tomoe</workerClass>
@@ -9,7 +9,7 @@
 
   <MentalBreakDef>
     <defName>Sharingan2Tomoe</defName>
-    <label>sharingan 2 tomoe</label>
+    <label>sharingan - 2 tomoe</label>
     <baseCommonality>2.6</baseCommonality>
     <intensity>Major</intensity>
     <workerClass>SharinganMod.MentalBreakWorker_Sharingan2Tomoe</workerClass>
@@ -17,10 +17,18 @@
 
   <MentalBreakDef>
     <defName>Sharingan3Tomoe</defName>
-    <label>sharingan 3 tomoe</label>
+    <label>sharingan - 3 tomoe</label>
     <baseCommonality>2.2</baseCommonality>
     <intensity>Major</intensity>
     <workerClass>SharinganMod.MentalBreakWorker_Sharingan3Tomoe</workerClass>
+  </MentalBreakDef>
+
+  <MentalBreakDef>
+    <defName>SharinganMangekyo</defName>
+    <label>mangekyo sharingan</label>
+    <baseCommonality>1.5</baseCommonality>
+    <intensity>Extreme</intensity>
+    <workerClass>SharinganMod.MentalBreakWorker_SharinganMangekyo</workerClass>
   </MentalBreakDef>
 
 </Defs>

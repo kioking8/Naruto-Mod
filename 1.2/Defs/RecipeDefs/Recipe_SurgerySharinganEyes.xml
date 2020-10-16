@@ -5,7 +5,7 @@
 		<description>Installs sharingan with 1 tomoe.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing Sharingan.</jobString>
-		<workAmount>3500</workAmount>
+		<workAmount>2500</workAmount>
 		<surgerySuccessChanceFactor>0.9</surgerySuccessChanceFactor>
 		<deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
 		<skillRequirements>
@@ -49,7 +49,7 @@
 		<description>Installs sharingan with 2 tomoe.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
 		<jobString>Installing Sharingan.</jobString>
-		<workAmount>3500</workAmount>
+		<workAmount>3000</workAmount>
 		<surgerySuccessChanceFactor>0.85</surgerySuccessChanceFactor>
 		<deathOnFailedSurgeryChance>0.02</deathOnFailedSurgeryChance>
 		<skillRequirements>
@@ -129,6 +129,50 @@
 			<li>Eye</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>Sharingan3Tomoe</addsHediff>
-    </RecipeDef>  
+    </RecipeDef> 
+	
+  	<RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase" >
+		<defName>InstallSharinganMangekyo</defName>
+		<label>install mangekyo sharingan</label>
+		<description>Installs mangekyo sharingan.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Sharingan.</jobString>
+		<workAmount>4500</workAmount>
+		<surgerySuccessChanceFactor>0.65</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.06</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SharinganMangekyo</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SharinganMangekyo</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SharinganMangekyo</addsHediff>
+    </RecipeDef>   
 
 </Defs>
