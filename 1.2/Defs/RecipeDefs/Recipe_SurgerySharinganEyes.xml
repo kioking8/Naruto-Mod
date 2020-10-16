@@ -176,4 +176,48 @@
 		<addsHediff>SharinganMangekyo</addsHediff>
     </RecipeDef>   
 
+  	<RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase" >
+		<defName>InstallSharinganEternalMangekyo</defName>
+		<label>install eternal mangekyo sharingan</label>
+		<description>Installs eternal mangekyo sharingan.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Sharingan.</jobString>
+		<workAmount>5500</workAmount>
+		<surgerySuccessChanceFactor>0.55</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.08</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SharinganEternalMangekyo</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SharinganEternalMangekyo</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SharinganEternalMangekyo</addsHediff>
+    </RecipeDef>   
+
 </Defs>

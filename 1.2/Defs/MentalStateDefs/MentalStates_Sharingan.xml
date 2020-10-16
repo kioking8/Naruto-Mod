@@ -32,4 +32,12 @@
     <workerClass>SharinganMod.MentalBreakWorker_SharinganMangekyo</workerClass>
   </MentalBreakDef>
 
+  <MentalBreakDef>
+    <defName>SharinganEternalMangekyo</defName>
+    <label>eternal mangekyo sharingan</label>
+    <baseCommonality>1.2</baseCommonality>
+    <intensity>Extreme</intensity>
+    <workerClass>SharinganMod.MentalBreakWorker_SharinganEternalMangekyo</workerClass>
+  </MentalBreakDef>
+
 </Defs>

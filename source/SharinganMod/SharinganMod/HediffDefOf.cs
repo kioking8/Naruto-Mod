@@ -19,6 +19,9 @@ namespace SharinganMod
         [MayRequireRoyalty]
         public static HediffDef SharinganMangekyo;
 
+        [MayRequireRoyalty]
+        public static HediffDef SharinganEternalMangekyo;
+
 
     }
 }

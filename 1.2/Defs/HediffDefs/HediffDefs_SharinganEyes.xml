@@ -132,4 +132,36 @@
     <chanceToCauseNoPain>0.15</chanceToCauseNoPain>
     <scenarioCanAdd>true</scenarioCanAdd>
 
+   <HediffDef ParentName="addedSharinganEye">
+    <defName>SharinganEternalMangekyo</defName>
+    <label>eternal mangekyo sharingan</label>
+    <labelNoun>an eternal mangekyo sharingan</labelNoun>
+    <description>An install eternal mangekyo sharingan.</description>
+    <descriptionHyperlinks><ThingDef>SharinganEternalMangekyo</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>SharinganEternalMangekyo</spawnThingOnRemoved>
+    <addedPartProps>
+        <partEfficiency>3.5</partEfficiency>
+        <solid>true</solid>
+        <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>7</ShootingAccuracyPawn>
+                    <AimingDelayFactor>-0.55</AimingDelayFactor>
+			        <MeleeHitChance>0.55</MeleeHitChance>
+			        <MeleeDodgeChance>0.55</MeleeDodgeChance>
+                    <WorkSpeedGlobal>0.4</WorkSpeedGlobal>
+                    <MeditationFocusGain>0.35</MeditationFocusGain>
+                    <PsychicEntropyMax>45</PsychicEntropyMax>
+                    <MoveSpeed>3.5</MoveSpeed>
+                    <PsychicEntropyGain>0.7</PsychicEntropyGain>	
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+    <chanceToCauseNoPain>0.10</chanceToCauseNoPain>
+    <scenarioCanAdd>true</scenarioCanAdd>
+
+
 </Defs>
