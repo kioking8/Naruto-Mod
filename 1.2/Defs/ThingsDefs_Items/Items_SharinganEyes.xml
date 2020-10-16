@@ -84,7 +84,7 @@
    <ThingDef ParentName="BodyPartNaturalBase">
       <defName>Rinnegan</defName>
       <label>rinnegan</label>
-      <description>The strongest eye that exist, but you can't achieve it that easily</description>
+      <description>The strongest eye that exists, but you can't achieve it that easily</description>
       <graphicData>
         <texPath>Things/Item/BodyPart/Rinnegan</texPath>
         <graphicClass>Graphic_Single</graphicClass>
