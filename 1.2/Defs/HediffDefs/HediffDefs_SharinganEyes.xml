@@ -19,9 +19,6 @@
         <solid>true</solid>
         <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
-    <partsToAffect>
-        <li>Eye</li>
-    </partsToAffect>
         <stages>
             <li>
                 <statOffsets>
@@ -48,9 +45,6 @@
         <solid>true</solid>
         <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
-    <partsToAffect>
-        <li>Eye</li>
-    </partsToAffect>
         <stages>
             <li>
                 <statOffsets>
@@ -77,9 +71,6 @@
         <solid>true</solid>
         <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
-    <partsToAffect>
-        <li>Eye</li>
-    </partsToAffect>
         <stages>
             <li>
                 <statOffsets>
