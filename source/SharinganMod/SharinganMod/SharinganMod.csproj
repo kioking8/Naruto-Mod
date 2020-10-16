@@ -53,6 +53,7 @@
     <Compile Include="MentalBreakWorker_Sharingan1Tomoe.cs" />
     <Compile Include="MentalBreakDefOf.cs" />
     <Compile Include="MentalBreakWorker_Sharingan2Tomoe.cs" />
+    <Compile Include="MentalBreakWorker_Sharingan3Tomoe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TraitDefOf.cs" />
   </ItemGroup>

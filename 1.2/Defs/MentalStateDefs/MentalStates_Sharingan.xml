@@ -15,4 +15,12 @@
     <workerClass>SharinganMod.MentalBreakWorker_Sharingan2Tomoe</workerClass>
   </MentalBreakDef>
 
+  <MentalBreakDef>
+    <defName>Sharingan3Tomoe</defName>
+    <label>sharingan 3 tomoe</label>
+    <baseCommonality>2.2</baseCommonality>
+    <intensity>Major</intensity>
+    <workerClass>SharinganMod.MentalBreakWorker_Sharingan3Tomoe</workerClass>
+  </MentalBreakDef>
+
 </Defs>
