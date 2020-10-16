@@ -29,8 +29,6 @@ namespace SharinganMod
 				part2 = pawn.RaceProps.body.GetPartsWithDef(BodyPartDefOf.Eye).ElementAt(1);
 				pawn.health.AddHediff(HediffDefOf.Sharingan1Tomoe, part2, null, null);
 
-				pawn.story.traits.GainTrait(new Trait(TraitDefOf.Sharingan1Tomoe, 0, true));
-
 				base.TrySendLetter(pawn, pawn.Name + " has gained a sharingan with 1 tomoe", reason);
 				return true;
 
