@@ -5,8 +5,7 @@
 <author>Tom</author>
 <supportedVersions>
 	<li>1.2</li>
-	<li>1.1</li>
-</supportedVersions>
+	<li>1.1</li>S
 <packageId>tomnyxxkunkos.narutotraits</packageId>
 <description>
 Naruto Mod Version V0.3
@@ -18,8 +17,8 @@ Create new clans with different bonuses and abilities, the player will be able t
 Add the chakra nature (wind, fire, earth, etc) influencing the type of jutsus a character can use
 
 Devs:
-	Tom
-	Nyxx_Cmyk
-	Kunkos152
+Tom
+Nyxx_Cmyk
+Kunkos152
 </description>
 </ModMetaData>
