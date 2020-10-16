@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <ModMetaData>
 <name>Naruto Mod</name>
 <url></url>
-<author>Tom</author>
+<author>Tom, Nyxx_Cmyk, Kunkos152</author>
 <supportedVersions>
 	<li>1.2</li>
 	<li>1.1</li>
+</supportedVersions>
 <packageId>tomnyxxkunkos.narutotraits</packageId>
 <description>
 Naruto Mod Version V0.3
