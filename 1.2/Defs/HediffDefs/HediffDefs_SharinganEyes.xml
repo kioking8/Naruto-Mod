@@ -16,7 +16,12 @@
     <spawnThingOnRemoved>Sharingan1Tomoe</spawnThingOnRemoved>
     <addedPartProps>
         <partEfficiency>1.25</partEfficiency>
+        <solid>true</solid>
+        <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
+    <partsToAffect>
+        <li>Eye</li>
+    </partsToAffect>
         <stages>
             <li>
                 <statOffsets>
@@ -27,6 +32,8 @@
                 </statOffsets>
             </li>
         </stages>
+        <chanceToCauseNoPain>0.25</chanceToCauseNoPain>
+        <scenarioCanAdd>true</scenarioCanAdd>
     </HediffDef>
 
    <HediffDef ParentName="addedSharinganEye">
@@ -38,7 +45,12 @@
     <spawnThingOnRemoved>Sharingan2Tomoe</spawnThingOnRemoved>
     <addedPartProps>
         <partEfficiency>1.50</partEfficiency>
+        <solid>true</solid>
+        <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
+    <partsToAffect>
+        <li>Eye</li>
+    </partsToAffect>
         <stages>
             <li>
                 <statOffsets>
@@ -49,6 +61,8 @@
                 </statOffsets>
             </li>
         </stages>
+        <chanceToCauseNoPain>0.25</chanceToCauseNoPain>
+        <scenarioCanAdd>true</scenarioCanAdd>
     </HediffDef>
 
    <HediffDef ParentName="addedSharinganEye">
@@ -60,7 +74,12 @@
     <spawnThingOnRemoved>Sharingan3Tomoe</spawnThingOnRemoved>
     <addedPartProps>
         <partEfficiency>2.0</partEfficiency>
+        <solid>true</solid>
+        <betterThanNatural>true</betterThanNatural>
     </addedPartProps>
+    <partsToAffect>
+        <li>Eye</li>
+    </partsToAffect>
         <stages>
             <li>
                 <statOffsets>
@@ -72,7 +91,6 @@
             </li>
         </stages>
     </HediffDef>
-
-
-
+    <chanceToCauseNoPain>0.25</chanceToCauseNoPain>
+    <scenarioCanAdd>true</scenarioCanAdd>
 </Defs>

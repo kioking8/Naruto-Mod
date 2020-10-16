@@ -2,8 +2,17 @@
   <MentalBreakDef>
     <defName>Sharingan1Tomoe</defName>
     <label>sharingan 1 tomoe</label>
-    <baseCommonality>0.8</baseCommonality>
-    <intensity>Extreme</intensity>
+    <baseCommonality>2.8</baseCommonality>
+    <intensity>Major</intensity>
     <workerClass>SharinganMod.MentalBreakWorker_Sharingan1Tomoe</workerClass>
   </MentalBreakDef>
+
+  <MentalBreakDef>
+    <defName>Sharingan2Tomoe</defName>
+    <label>sharingan 2 tomoe</label>
+    <baseCommonality>2.6</baseCommonality>
+    <intensity>Major</intensity>
+    <workerClass>SharinganMod.MentalBreakWorker_Sharingan2Tomoe</workerClass>
+  </MentalBreakDef>
+
 </Defs>

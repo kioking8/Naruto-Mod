@@ -6,11 +6,12 @@
       <defName>RemoveSharingan1Tomoe</defName>
       <label>remove sharingan 1 tomoe</label>
       <description>Removes Sharingan from user.</description>
-      <workerClass>Recipe_RemoveHediff</workerClass>
+      <workerClass>Recipe_RemoveBodyPart</workerClass>
       <jobString>Removing Shraingan.</jobString>
       <workAmount>2500</workAmount>
       <removesHediff>Sharingan1Tomoe</removesHediff>
       <successfullyRemovedHediffMessage>{0} has successfully removed {1}'s sharingan.</successfullyRemovedHediffMessage>
+      <surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
       <deathOnFailedSurgeryChance>0.03</deathOnFailedSurgeryChance>
       <skillRequirements>
          <Medicine>3</Medicine>
@@ -42,11 +43,12 @@
       <defName>RemoveSharingan2Tomoe</defName>
       <label>remove sharingan 2 tomoe</label>
       <description>Removes Sharingan from user.</description>
-      <workerClass>Recipe_RemoveHediff</workerClass>
-      <jobString>Removing Shraingan.</jobString>
+      <workerClass>Recipe_RemoveBodyPart</workerClass>
+      <jobString>Removing Sharingan.</jobString>
       <workAmount>2500</workAmount>
       <removesHediff>Sharingan2Tomoe</removesHediff>
       <successfullyRemovedHediffMessage>{0} has successfully removed {1}'s sharingan.</successfullyRemovedHediffMessage>
+      <surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
       <deathOnFailedSurgeryChance>0.03</deathOnFailedSurgeryChance>
       <skillRequirements>
          <Medicine>3</Medicine>
@@ -78,11 +80,12 @@
       <defName>RemoveSharingan3Tomoe</defName>
       <label>remove sharingan 3 tomoe</label>
       <description>Removes Sharingan from user.</description>
-      <workerClass>Recipe_RemoveHediff</workerClass>
+      <workerClass>Recipe_RemoveBodyPart</workerClass>
       <jobString>Removing Shraingan.</jobString>
       <workAmount>2500</workAmount>
       <removesHediff>Sharingan3Tomoe</removesHediff>
       <successfullyRemovedHediffMessage>{0} has successfully removed {1}'s sharingan.</successfullyRemovedHediffMessage>
+      <surgerySuccessChanceFactor>1</surgerySuccessChanceFactor>
       <deathOnFailedSurgeryChance>0.03</deathOnFailedSurgeryChance>
       <skillRequirements>
          <Medicine>3</Medicine>
