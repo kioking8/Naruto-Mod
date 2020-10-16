@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<!-- Added Sharingan Eyes -->
+   <ThingDef ParentName="BodyPartNaturalBase">
+      <defName>Sharingan1Tomoe</defName>
+      <label>sharingan - 1 tomoe</label>
+      <description>The first version of sharingan. It isn't as good as the others, but it can still help a lot</description>
+      <graphicData>
+        <texPath>Things/Item/BodyPart/Sharingan1Tomoe</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>0.80</drawSize>
+        <shaderType>CutoutComplex</shaderType>
+      </graphicData>
+      <statBases>
+         <Mass>0.3</Mass>
+         <MarketValue>1500</MarketValue>
+      </statBases>
+   </ThingDef>
+
+   <ThingDef ParentName="BodyPartNaturalBase">
+      <defName>Sharingan2Tomoe</defName>
+      <label>sharingan - 2 tomoe</label>
+      <description>The second version of sharingan. It is much better than the first one</description>
+      <graphicData>
+        <texPath>Things/Item/BodyPart/Sharingan2Tomoe</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>0.80</drawSize>
+        <shaderType>CutoutComplex</shaderType>
+      </graphicData>
+      <statBases>
+         <Mass>0.3</Mass>
+         <MarketValue>3500</MarketValue>
+      </statBases>
+   </ThingDef>
+
+   <ThingDef ParentName="BodyPartNaturalBase">
+      <defName>Sharingan3Tomoe</defName>
+      <label>sharingan - 3 tomoe</label>
+      <description>The third and last version of the normal sharingan. It is much stronger than the previous ones</description>
+      <graphicData>
+        <texPath>Things/Item/BodyPart/Sharingan3Tomoe</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>0.80</drawSize>
+        <shaderType>CutoutComplex</shaderType>
+      </graphicData>
+      <statBases>
+         <Mass>0.3</Mass>
+         <MarketValue>5500</MarketValue>
+      </statBases>
+   </ThingDef>
+
+   <ThingDef ParentName="BodyPartNaturalBase">
+      <defName>SharinganMangekyo</defName>
+      <label>mangekyo sharingan</label>
+      <description>the mangekyo sharingan. Through this eye you can unlock so many abilities that the normal one couldn't and the ultimate abillity Sussano</description>
+      <graphicData>
+        <texPath>Things/Item/BodyPart/MadaraMangekyo</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>0.80</drawSize>
+        <shaderType>CutoutComplex</shaderType>
+      </graphicData>
+      <statBases>
+         <Mass>0.3</Mass>
+         <MarketValue>10000</MarketValue>
+      </statBases>
+   </ThingDef>
+
+   <ThingDef ParentName="BodyPartNaturalBase">
+      <defName>SharinganEternalMangekyo</defName>
+      <label>eternal mangekyo sharingan</label>
+      <description>the eternal mangekyo sharingan. Unlike the normal mangekyo you won't get blind from using this eye. You can furthermore increase you eye powers</description>
+      <graphicData>
+        <texPath>Things/Item/BodyPart/MadaraEternalMangekyo</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>0.80</drawSize>
+        <shaderType>CutoutComplex</shaderType>
+      </graphicData>
+      <statBases>
+         <Mass>0.3</Mass>
+         <MarketValue>15000</MarketValue>
+      </statBases>
+   </ThingDef>
+
+   <ThingDef ParentName="BodyPartNaturalBase">
+      <defName>Rinnegan</defName>
+      <label>rinnegan</label>
+      <description>The strongest eye that exists, but you can't achieve it that easily</description>
+      <graphicData>
+        <texPath>Things/Item/BodyPart/Rinnegan</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>0.80</drawSize>
+        <shaderType>CutoutComplex</shaderType>
+      </graphicData>
+      <statBases>
+         <Mass>0.3</Mass>
+         <MarketValue>30000</MarketValue>
+      </statBases>
+   </ThingDef>
+
+</Defs>

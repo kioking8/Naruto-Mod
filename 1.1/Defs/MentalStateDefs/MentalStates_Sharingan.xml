@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <MentalBreakDef>
+    <defName>Sharingan1Tomoe</defName>
+    <label>sharingan - 1 tomoe</label>
+    <baseCommonality>2.8</baseCommonality>
+    <intensity>Major</intensity>
+    <workerClass>SharinganMod.MentalBreakWorker_Sharingan1Tomoe</workerClass>
+  </MentalBreakDef>
+
+  <MentalBreakDef>
+    <defName>Sharingan2Tomoe</defName>
+    <label>sharingan - 2 tomoe</label>
+    <baseCommonality>2.6</baseCommonality>
+    <intensity>Major</intensity>
+    <workerClass>SharinganMod.MentalBreakWorker_Sharingan2Tomoe</workerClass>
+  </MentalBreakDef>
+
+  <MentalBreakDef>
+    <defName>Sharingan3Tomoe</defName>
+    <label>sharingan - 3 tomoe</label>
+    <baseCommonality>2.2</baseCommonality>
+    <intensity>Major</intensity>
+    <workerClass>SharinganMod.MentalBreakWorker_Sharingan3Tomoe</workerClass>
+  </MentalBreakDef>
+
+  <MentalBreakDef>
+    <defName>SharinganMangekyo</defName>
+    <label>mangekyo sharingan</label>
+    <baseCommonality>1.5</baseCommonality>
+    <intensity>Extreme</intensity>
+    <workerClass>SharinganMod.MentalBreakWorker_SharinganMangekyo</workerClass>
+  </MentalBreakDef>
+
+  <MentalBreakDef>
+    <defName>SharinganEternalMangekyo</defName>
+    <label>eternal mangekyo sharingan</label>
+    <baseCommonality>1.2</baseCommonality>
+    <intensity>Extreme</intensity>
+    <workerClass>SharinganMod.MentalBreakWorker_SharinganEternalMangekyo</workerClass>
+  </MentalBreakDef>
+
+</Defs>

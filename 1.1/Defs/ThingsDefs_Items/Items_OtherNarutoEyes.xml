@@ -1,0 +1,19 @@
+<!-- Added Eyes -->
+<Defs>
+   <ThingDef ParentName="BodyPartNaturalBase">
+      <defName>Byakugan</defName>
+      <label>byakugan</label>
+      <description>The white eye Byakugan. Giving user the ability to see through walls and and have a 360 field of view</description>
+      <graphicData>
+        <texPath>Things/Item/BodyPart/Byakugan</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>0.80</drawSize>
+        <shaderType>CutoutComplex</shaderType>
+      </graphicData>
+      <statBases>
+         <Mass>0.3</Mass>
+         <MarketValue>3000</MarketValue>
+      </statBases>
+   </ThingDef>
+
+</Defs>

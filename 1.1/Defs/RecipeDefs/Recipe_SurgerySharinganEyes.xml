@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  	<RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase" >
+		<defName>InstallSharingan1Tomoe</defName>
+		<label>install sharingan - 1 tomoe</label>
+		<description>Installs sharingan with 1 tomoe.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Sharingan.</jobString>
+		<workAmount>2500</workAmount>
+		<surgerySuccessChanceFactor>0.9</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Sharingan1Tomoe</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Sharingan1Tomoe</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Sharingan1Tomoe</addsHediff>
+    </RecipeDef>
+
+  	<RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase" >
+		<defName>InstallSharingan2Tomoe</defName>
+		<label>install sharingan - 2 tomoe</label>
+		<description>Installs sharingan with 2 tomoe.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Sharingan.</jobString>
+		<workAmount>3000</workAmount>
+		<surgerySuccessChanceFactor>0.85</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.02</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Sharingan2Tomoe</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Sharingan2Tomoe</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Sharingan2Tomoe</addsHediff>
+    </RecipeDef>  
+
+  	<RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase" >
+		<defName>InstallSharingan3Tomoe</defName>
+		<label>install sharingan - 3 tomoe</label>
+		<description>Installs sharingan with 3 tomoe.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Sharingan.</jobString>
+		<workAmount>3500</workAmount>
+		<surgerySuccessChanceFactor>0.8</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.03</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Sharingan3Tomoe</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Sharingan3Tomoe</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Sharingan3Tomoe</addsHediff>
+    </RecipeDef> 
+	
+  	<RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase" >
+		<defName>InstallSharinganMangekyo</defName>
+		<label>install mangekyo sharingan</label>
+		<description>Installs mangekyo sharingan.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Sharingan.</jobString>
+		<workAmount>4500</workAmount>
+		<surgerySuccessChanceFactor>0.65</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.06</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SharinganMangekyo</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SharinganMangekyo</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SharinganMangekyo</addsHediff>
+    </RecipeDef>   
+
+  	<RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase" >
+		<defName>InstallSharinganEternalMangekyo</defName>
+		<label>install eternal mangekyo sharingan</label>
+		<description>Installs eternal mangekyo sharingan.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Sharingan.</jobString>
+		<workAmount>5500</workAmount>
+		<surgerySuccessChanceFactor>0.55</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.08</deathOnFailedSurgeryChance>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SharinganEternalMangekyo</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SharinganEternalMangekyo</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Eye</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SharinganEternalMangekyo</addsHediff>
+    </RecipeDef>   
+
+</Defs>
