@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-<name>Naruto Eyes</name>
+<name>Naruto Mod</name>
 <url></url>
 <author>Tom</author>
 <supportedVersions>
 	<li>1.2</li>
+	<li>1.1</li>
 </supportedVersions>
-<packageId>tom.narutotraits</packageId>
+<packageId>tomnyxxkunkos.narutotraits</packageId>
 <description>
-The mod adds some naruto traits in to the game mostly eyes
+Naruto Mod Version V0.3
+
+We aim to bring the Naruto anime into Rimworld, first by adding the visual prowess we see on the anime, such as sharingan, byakugan, etc.
+
+Create new clans with different bonuses and abilities, the player will be able to choose his clan in the character creation.
+
+Add the chakra nature (wind, fire, earth, etc) influencing the type of jutsus a character can use
+
+Devs:
+	Tom
+	Nyxx_Cmyk
+	Kunkos152
 </description>
 </ModMetaData>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
    <HediffDef Name="addedSharinganEye" ParentName="AddedBodyPartBase" Abstract="True">
@@ -22,10 +23,10 @@
         <stages>
             <li>
                 <statOffsets>
-                    <ShootingAccuracyPawn>+1</ShootingAccuracyPawn>
+                    <ShootingAccuracyPawn>1</ShootingAccuracyPawn>
                     <AimingDelayFactor>-0.1</AimingDelayFactor>
-			        <MeleeHitChance>+0.1</MeleeHitChance>
-			        <MeleeDodgeChance>+0.1</MeleeDodgeChance>
+			        <MeleeHitChance>0.1</MeleeHitChance>
+			        <MeleeDodgeChance>0.1</MeleeDodgeChance>
                     <WorkSpeedGlobal>0.1</WorkSpeedGlobal>
                     <MeditationFocusGain>0.05</MeditationFocusGain>
                     <PsychicEntropyMax>10</PsychicEntropyMax>
@@ -55,8 +56,8 @@
                 <statOffsets>
                     <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
                     <AimingDelayFactor>-0.25</AimingDelayFactor>
-			        <MeleeHitChance>+0.25</MeleeHitChance>
-			        <MeleeDodgeChance>+0.25</MeleeDodgeChance>
+			        <MeleeHitChance>0.25</MeleeHitChance>
+			        <MeleeDodgeChance>0.25</MeleeDodgeChance>
                     <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
                     <MeditationFocusGain>0.1</MeditationFocusGain>
                     <PsychicEntropyMax>15</PsychicEntropyMax>
@@ -86,8 +87,8 @@
                 <statOffsets>
                     <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
                     <AimingDelayFactor>-0.35</AimingDelayFactor>
-			        <MeleeHitChance>+0.35</MeleeHitChance>
-			        <MeleeDodgeChance>+0.35</MeleeDodgeChance>
+			        <MeleeHitChance>0.35</MeleeHitChance>
+			        <MeleeDodgeChance>0.35</MeleeDodgeChance>
                     <WorkSpeedGlobal>0.2</WorkSpeedGlobal>
                     <MeditationFocusGain>0.15</MeditationFocusGain>
                     <PsychicEntropyMax>20</PsychicEntropyMax>
@@ -117,8 +118,8 @@
                 <statOffsets>
                     <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
                     <AimingDelayFactor>-0.45</AimingDelayFactor>
-			        <MeleeHitChance>+0.45</MeleeHitChance>
-			        <MeleeDodgeChance>+0.45</MeleeDodgeChance>
+			        <MeleeHitChance>0.45</MeleeHitChance>
+			        <MeleeDodgeChance>0.45</MeleeDodgeChance>
                     <WorkSpeedGlobal>0.3</WorkSpeedGlobal>
                     <MeditationFocusGain>0.25</MeditationFocusGain>
                     <PsychicEntropyMax>35</PsychicEntropyMax>
