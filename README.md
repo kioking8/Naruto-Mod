@@ -32,7 +32,7 @@ we aim to make sharingan or other dojutsus appear on the player when he gets it
 factions like Hyugga or Uchiha
 
 
-If you like this mod you can give it five stars at the bottom of the site
+If you like this mod you can join give it a upvote on reddit
 
 If you have any sugestions or bug reports or you want to help developing the mod. You can follow these links
 
