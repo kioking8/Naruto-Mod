@@ -7,4 +7,4 @@
 7.Custom Sounds
 8.Level System
 9.Skills and Jutsus
-10.
+10.Hola perdon que moleste por aca . me podrias enseñar  a configurar  el dll ? me interesa mucho aportar al proyecto pero soy novato en esto
